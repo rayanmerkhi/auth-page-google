@@ -9,12 +9,12 @@ function App() {
       <div className="flex flex-wrap mx-auto justify-center w-screen h-screen my-8">
           <div className="shadow-sm fixed p-10 bg-white rounded-3xl w-10/12">
             <div className="mt-20 flex-wrap justify-between flex">
-              <Teller />
-              <Email />
+              <Teller bvalue='Connexion' svalue='Utilisez votre compte Google' />
+              <Email asker='Adresse e-mail ou numéro de téléphone'/>
             </div>
             <div className='flex justify-end p-3 mt-3'>
               <button className='p-2 rounded-full hover:bg-slate-100'>Créer un compte</button>
-              <button className='p-2 px-5 ml-14 bg-blue-800 text-white rounded-full hover:bg-blue-900'>Suivant</button>
+              <a href='../password.html' className='p-2 px-5 ml-14 bg-blue-800 text-white rounded-full hover:bg-blue-900'>Suivant</a>
             </div>
           </div>
       </div>
@@ -23,3 +23,5 @@ function App() {
 }
 
 export default App
+
+
