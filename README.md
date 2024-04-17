@@ -7,3 +7,6 @@ Beaucoup de difficulté à ete trouver lors de devoir mettre la page au milieu. 
 
 Mise en place de la page de mot de passe également
 
+Pour l'utiliser :
+cd auth-google
+npm run dev
