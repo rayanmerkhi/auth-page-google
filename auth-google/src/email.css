@@ -1,0 +1,11 @@
+
+
+.email:focus + .label .content-name , .email:invalid + .label .content-name {
+    transform: translateY(-120%) translateX(-8%) scale(80%);
+    background-color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    color: hsl(210, 84%, 46%)
+}
