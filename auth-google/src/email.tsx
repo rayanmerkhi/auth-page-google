@@ -4,8 +4,8 @@ function Email(){
             
     return(
     <div className="flex grow justify-center flex-col">
-        <div className="border min-w-[327px] max-h-12 rounded-lg px-3 py-4 relative grow bdelem flex-col" >
-            <input type="email" autoComplete="username" className="w-full h-full outline-none email p-2"/>
+        <div className="border min-w-[327px] max-h-12 rounded-lg px-3 py-4 relative grow bdelem flex-col mb-10" >
+            <input type="email" autoComplete="username" className="w-full bg-transparent outline-none email p-2 bottom-3 relative" placeholder=' '/>
             <label className='label'>
                 <div className="absolute top-2 pointer-events-none transition content-name">Adresse e-mail ou numéro de téléphone</div>
             </label>

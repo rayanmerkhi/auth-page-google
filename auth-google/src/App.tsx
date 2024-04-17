@@ -12,6 +12,10 @@ function App() {
               <Teller />
               <Email />
             </div>
+            <div className='flex justify-end p-3 mt-3'>
+              <button className='p-2 rounded-full hover:bg-slate-100'>Créer un compte</button>
+              <button className='p-2 px-5 ml-14 bg-blue-800 text-white rounded-full hover:bg-blue-900'>Suivant</button>
+            </div>
           </div>
       </div>
     </>

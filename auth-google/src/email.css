@@ -1,6 +1,6 @@
 
 
-.email:focus + .label .content-name , .email:invalid + .label .content-name {
+.email:focus + .label .content-name , .email:not(:placeholder-shown) + .label .content-name {
     transform: translateY(-120%) translateX(-8%) scale(80%);
     background-color: white;
     padding-left: 12px;
